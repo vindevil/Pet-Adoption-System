@@ -44,7 +44,7 @@ export default function NavigationBar() {
             </Dropdown.Menu>
           </Dropdown>
           <Link to="/" className="btn btn-ghost normal-case text-xl">
-            Pawternity Hub
+            Pet Adoption System
           </Link>
         </Navbar.Start>
         <Navbar.Center className="hidden lg:flex justify-center">

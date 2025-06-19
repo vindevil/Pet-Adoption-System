@@ -39,16 +39,7 @@ const Donate = () => {
       <h1 className="text-5xl font-bold font-amatic mb-10">ORGANIZATIONS</h1>
       <section>
         <p>Here are a list of organizations that help pets and animals.</p>
-
-        <p>If you wish to help donate the site here, you can click here</p>
         <div className="flex flex-wrap justify-between items-center">
-          <a href={process.env.REACT_APP_KOFI} target="_blank" rel="noreferrer">
-            <img
-              src="https://cdn.ko-fi.com/cdn/kofi2.png?v=2"
-              className="h-auto w-48"
-              alt="Buy Me a Coffee at ko-fi.com"
-            />
-          </a>
           <div className="mr-2">
             <label htmlFor="dropdown">Filter by place: </label>
             <select

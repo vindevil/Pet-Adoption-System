@@ -2,9 +2,8 @@ import { Footer } from "react-daisyui";
 import { Link } from "react-router-dom";
 
 const FooterMenu = () => {
-  const year = new Date();
   return (
-    <Footer className="p-10 bg-primary text-secondary-content mt-10">
+    <Footer className="p-10 mt-10 bg-sky-300 text-gray-700">
       <article>
         <svg
           width="50"
@@ -26,16 +25,22 @@ const FooterMenu = () => {
         </svg>
 
         <p>
-          Pawternity Hub
+          Laurentian SDLC Group 11 Program
           <br />
-          <span>&copy; redxzeta 2020 - {year.getFullYear()}</span>
+          <span>
+            {new Date().toLocaleDateString(undefined, {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </span>
           <br />
           <a
-            href="https://github.com/redxzeta/Awesome-Adoption"
+            href="https://github.com/Zixiaozzzzz/Pet-Adoption-System"
             target="_blank"
             rel="noreferrer noopener"
           >
-            Github
+            Project Repository
           </a>
         </p>
       </article>

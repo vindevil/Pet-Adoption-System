@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        amatic: ["Amatic SC", "sans-serif"],
+        amatic: ["Verdant"],
       },
     },
   },
@@ -16,11 +16,11 @@ module.exports = {
     themes: [
       {
         dark: {
-          primary: "#ef4444",
+          primary: "#f97316",
 
-          secondary: "#831843",
+          secondary: "#c2410c",
 
-          accent: "#170075",
+          accent: "#fbbf24",
 
           neutral: "#e7e5e4",
 
@@ -38,9 +38,9 @@ module.exports = {
       },
       {
         light: {
-          primary: "#ef4444",
+          primary: "#f97316",
 
-          secondary: "#831843",
+          secondary: "#c2410c",
 
           accent: "#170075",
 
@@ -55,6 +55,7 @@ module.exports = {
           warning: "#E18E19",
 
           error: "#F0667D",
+
         }
       }
     ]

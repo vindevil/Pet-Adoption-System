@@ -95,84 +95,9 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <hr />
-      <div className="my-8">
-        <h1 className="font-amatic text-5xl font-bold mb-4">Covid-19</h1>
-        <p>
-          Covid-19 is a newly found infectious disease that belongs to the
-          Coronavirus family. The virus causes respiratory infections, with
-          severity ranging from mild to life-threatening, depending on various
-          factors. The World Health Organization has declared Covid-19 a
-          pandemic, leading many countries to issue stay-at-home orders or
-          recommendations for quarantine and self-isolation.
-        </p>
-        <p>
-          Given the difficulties of staying home alone,
-          <a
-            href="https://apnews.com/article/31e3e60e7ea6bc4566b0ee3998ab98a6"
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-primary mx-4"
-          >
-            many people have chosen to adopt a furry companion
-          </a>
-          .
-        </p>
-        <p className="font-bold">
-          Pawternity Hub aims to help you stay safe and find a loyal friend to
-          keep you company during the pandemic. Check out the links below for
-          more information about adopting during Covid-19:
-        </p>
-        <ul className="list-disc pl-8">
-          <li>
-            <a
-              href="https://www.petfinder.com/helping-pets/covid-19-resources/how-to-adopt-a-pet-during-covid-19/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Pet Finder (Adopting during Covid-19)
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.oie.int/scientific-expertise/specific-information-and-recommendations/questions-and-answers-on-2019novel-coronavirus/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              World Organization for Animal Health
-            </a>
-          </li>
-        </ul>
-        <p>
-          At Pawternity Hub, we prioritize the health and safety of our
-          community. We encourage responsible pet adoption and provide resources
-          to help you make an informed decision. Adopting a pet during Covid-19
-          can bring much-needed positivity and companionship into your life
-          while helping a shelter pet find a loving home.
-        </p>
-        <div className="flex justify-center mt-4">
-          <a
-            href="https://www.petfinder.com/helping-pets/covid-19-resources/how-to-adopt-a-pet-during-covid-19/"
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-primary mx-4"
-          >
-            Pet Finder (Adopting during Covid-19)
-          </a>
-          <a
-            href="https://www.oie.int/scientific-expertise/specific-information-and-recommendations/questions-and-answers-on-2019novel-coronavirus/"
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-primary"
-          >
-            World Organization for Animal Health
-          </a>
-        </div>
-      </div>
-      <hr />
-      <div className="flex justify-center mt-4">
+      <div className="flex flex-col items-center mt-4">
         <h2 className="font-amatic text-4xl font-bold">Adopt a Buddy Today!</h2>
-        <Link to="/pets" className="btn btn-primary ml-4">
+        <Link to="/pets" className="btn btn-primary mt-2">
           Adopt
         </Link>
       </div>

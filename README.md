@@ -1,45 +1,12 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e4f299c9-c989-48e7-98c6-a9e259ddfb0f/deploy-status)](https://app.netlify.com/sites/hardcore-morse-df1d25/deploys)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Node.js CI](https://github.com/redxzeta/Awesome-Adoption/actions/workflows/node.js.yml/badge.svg)](https://github.com/redxzeta/Awesome-Adoption/actions/workflows/node.js.yml)
+## Introduction
 
-# PawternityHub
-
-![image](https://user-images.githubusercontent.com/55101825/193477678-ca458235-d786-44bb-83cd-b3b3e2e9920f.png)
-![image](https://user-images.githubusercontent.com/55101825/193477686-cb8e8cf3-2b72-48a0-bed0-5afe64875882.png)
-
-A web application that helps users find pets to adopt around their area. It started out as a Hackathon project and then Open Source during Hacktoberfest All levels are welcome to contribute.
-
-## Contribution
-
-Read Here [Contribution](https://github.com/redxzeta/Awesome-Adoption/blob/main/CONTRIBUTING.md)
+This is a web application that helps users find pets to adopt around their area. 
 
 ## Tech Stack Used
 - React
 - Tailwind
 - Supabase
 - Daisy UI
-
-## Pet Finder Developer API Key
-
-Register for an api key here [PetFinder](https://www.petfinder.com/developers/)
-
-Create an `.env` file in root folder
-
-In the `.env` file put
-
-`REACT_APP_PETFINDER_KEY = APIKEYhere&client_secret=secretkeyhere`
-
-Restart the app
-
-Where the key is being used
-
-`grant_type=client_credentials&client_id=${process.env.REACT_APP_PETFINDER_KEY}`
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Supabase
-
-Join My [Discord](https://discord.gg/2UxwrKxCPV) for the Supabase keys, which need to be in .env
 
 ## Setup
 

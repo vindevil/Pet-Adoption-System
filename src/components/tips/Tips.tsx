@@ -74,11 +74,6 @@ export default function Tips() {
           </a>
           .
         </p>
-        <p className="font-bold">
-          Pawternity Hub wants to help you stay safe and help you find a friend
-          that can keep you company during the pandemic. Check out the links
-          below for more information about adoption during Covid-19.
-        </p>
       </div>
       <hr />
       <div className="text-center mt-8">
