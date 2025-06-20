@@ -1,0 +1,17 @@
+# Ignore dependencies - this is the most important part!
+node_modules
+
+# Ignore build output folders
+build
+dist
+
+# Ignore local environment files
+.env
+
+# Ignore Docker and Git specific files
+Dockerfile
+.dockerignore
+docker-compose.yml
+.git
+.github
+.husky
