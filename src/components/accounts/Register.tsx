@@ -29,8 +29,8 @@ const Register = () => {
           <div className="max-w-md w-full space-y-8 shadow-2xl rounded-xl p-6">
             <h1 className="text-5xl font-bold font-amatic">Sign Up</h1>
 
-            <form onSubmit={handleSubmit(onSubmit)}>
-              <Form className="  w-full  p-4">
+            <Form onSubmit={handleSubmit(onSubmit)}>
+              <div className="w-full p-4">
                 <Form.Label title="Email Address">
                   <Controller
                     name="email"
@@ -52,9 +52,9 @@ const Register = () => {
                     )}
                   />
                 </Form.Label>
-              </Form>
+              </div>
 
-              <Form className="w-full p-4">
+              <div className="w-full p-4">
                 <Form.Label title="Password">
                   <Controller
                     name="password"
@@ -73,11 +73,11 @@ const Register = () => {
                     )}
                   />
                 </Form.Label>
-              </Form>
+              </div>
 
               <FetchingButton fetching={fetching} action="Submit" />
               {error && <small className="text-error">{error.message}</small>}
-            </form>
+            </Form>
           </div>
         </section>
       )}
